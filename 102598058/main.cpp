@@ -1,7 +1,8 @@
 
 #include <QtCore/QCoreApplication>
 #include <iostream>
-#include <TextUI.h>
+#include "TextUI.h"
+#include "ERModel.h"
 
 using namespace std;
 
