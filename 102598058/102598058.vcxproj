@@ -88,6 +88,7 @@
     <ClCompile Include="Node.cpp" />
     <ClCompile Include="Relationship.cpp" />
     <ClCompile Include="TextUI.cpp" />
+    <ClCompile Include="TextUIPresentationModel.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Attribute.h" />
@@ -99,13 +100,14 @@
     <ClInclude Include="Node.h" />
     <ClInclude Include="Relationship.h" />
     <ClInclude Include="TextUI.h" />
+    <ClInclude Include="TextUIPresentationModel.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
   <ProjectExtensions>
     <VisualStudio>
-      <UserProperties UicDir=".\GeneratedFiles" MocDir=".\GeneratedFiles\$(ConfigurationName)" MocOptions="" RccDir=".\GeneratedFiles" lupdateOnBuild="0" lupdateOptions="" lreleaseOptions="" Qt5Version_x0020_Win32="Qt5.1.1" />
+      <UserProperties UicDir=".\GeneratedFiles" MocDir=".\GeneratedFiles\$(ConfigurationName)" MocOptions="" RccDir=".\GeneratedFiles" lupdateOnBuild="0" lupdateOptions="" lreleaseOptions="" Qt5Version_x0020_Win32="5.1.1" />
     </VisualStudio>
   </ProjectExtensions>
 </Project>
