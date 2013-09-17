@@ -1,11 +1,9 @@
 #include <string>
 #include <iostream>
 #include"ComponentFactory.h"
+#include "Component.h"
 using namespace std;
 
-ComponentFactory::ComponentFactory(){
-
-}
-void ComponentFactory::createComponent(){
-
+Component* ComponentFactory::createComponent(){
+	return NULL;
 }

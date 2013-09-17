@@ -1,9 +1,9 @@
 #include <string>
 using namespace std;
+#include "Node.h"
 
-class Entity{
+class Entity: public Node{
 public:
-	Entity();
 	void connectTo();
 	void canConnectTo();
 private:

@@ -3,12 +3,10 @@
 #include "Attribute.h"
 using namespace std;
 
-Attribute::Attribute(){
 
-}
 void Attribute::canConnectTo(){
-
+	//實作
 }
 void Attribute::connectTo(){
-
+	//實作
 }

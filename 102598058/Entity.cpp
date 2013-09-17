@@ -2,11 +2,10 @@
 #include <iostream>
 #include "Entity.h"
 using namespace std;
-Entity::Entity(){
 
-}
 void Entity::connectTo(){
-
+	//實作
 }
 void Entity::canConnectTo(){
+	//實作
 }

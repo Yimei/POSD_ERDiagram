@@ -3,12 +3,10 @@
 #include "Relationship.h"
 using namespace std;
 
-Relationship::Relationship(){
 
-}
 void Relationship::canConnectTo(){
-
+	//實作
 }
 void Relationship::connectTo(){
-
+	//實作
 }

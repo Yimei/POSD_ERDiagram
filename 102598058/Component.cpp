@@ -6,11 +6,12 @@ using namespace std;
 int _id;
 int _type;
 string _text;
-Component::Component(int id, int type, string text){
+Component::Component(){
 	_id = id;
 	_type = type;
 	_text = text;
 }
+
 int Component::getID(){
 	return _id;
 }
@@ -21,10 +22,10 @@ string Component::getText(){
 	return _text;
 }
 void Component::connectTo(){
-
+	//給下下層實作
 }
 void Component::canConnectTo(){
-
+	//給下下層實作
 }
 
 

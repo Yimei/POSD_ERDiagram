@@ -24,7 +24,7 @@ void TextUI::displayMenu(){
 }
 void TextUI::processCommand(){
 	ERModel ermodel;
-	char _type;
+	string _type;
 	int _idFirst;
 	int _idSecond;
 	/*int _command;

@@ -1,7 +1,8 @@
 #include <string>
 using namespace std;
+#include "Component.h"
 
-class Connection{
+class Connection:public Component{
 public:
 	Connection();
 	void connectTo();

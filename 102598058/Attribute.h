@@ -1,11 +1,11 @@
 #include <string>
 using namespace std;
-
-class Attribute{
+#include "Node.h"
+class Attribute:public Node{
 public:
-	Attribute();
-	void connectTo();
-	void canConnectTo();
+	
+	virtual void connectTo();
+	virtual void canConnectTo();
 private:
 	int connections;
 };

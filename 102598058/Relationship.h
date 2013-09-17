@@ -1,11 +1,11 @@
 #include <string>
 using namespace std;
-
-class Relationship{
+#include "Node.h"
+class Relationship:public Node{
 public:
-	Relationship();
-	void connectTo();//介面
-	void canConnectTo();//介面
+	
+	virtual void connectTo();//介面
+	virtual void canConnectTo();//介面
 private:
 	int connections;
 };

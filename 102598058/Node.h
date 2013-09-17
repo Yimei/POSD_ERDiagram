@@ -1,11 +1,12 @@
 #include <string>
 using namespace std;
-
-class Node{
+#include "Component.h"
+//AbstractCircle
+class Node:public Component{
 public:
-	Node();
-	void connectTo();
-	void canConnectTo();
+	//Node();
+	virtual void connectTo();
+	virtual void canConnectTo();
 private:
 	int connections;
 };

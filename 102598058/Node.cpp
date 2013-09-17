@@ -3,12 +3,9 @@
 #include "Node.h"
 using namespace std;
 
-Node::Node(){
-
-}
 void Node::connectTo(){
-
+	//給下一層實作
 }
 void Node::canConnectTo(){
-
+	//給下一層實作
 }
