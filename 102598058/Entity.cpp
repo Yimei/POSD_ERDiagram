@@ -6,6 +6,7 @@ using namespace std;
 void Entity::connectTo(){
 	//實作
 }
-void Entity::canConnectTo(){
+bool Entity::canConnectTo(){
 	//實作
+	return true; //test
 }

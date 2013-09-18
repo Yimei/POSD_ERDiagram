@@ -5,7 +5,7 @@ class Attribute:public Node{
 public:
 	
 	virtual void connectTo();
-	virtual void canConnectTo();
+	virtual bool canConnectTo();
 private:
 	int connections;
 };

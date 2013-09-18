@@ -6,14 +6,14 @@ public:
 	
 	Component();
 	int getID();
-	int getType();
+	string getType();
 	string getText();
 	virtual void connectTo();
-	virtual void canConnectTo();
+	virtual bool canConnectTo();
 private:
 	
 	int id;
-	int type;
+	string type;
 	string text;
 };
 //Abstract Factory returning a component

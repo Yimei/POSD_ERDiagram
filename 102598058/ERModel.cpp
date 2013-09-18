@@ -13,7 +13,7 @@ ERModel::ERModel(){
 //	int Relationship;
 //};
 void ERModel::addNode(string type){
-	components = new Component();
+	//components = new Component();
 	//Component component;
 	string _name;
 	//int _answer;

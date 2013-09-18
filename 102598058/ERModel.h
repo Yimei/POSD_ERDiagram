@@ -13,5 +13,5 @@ public:
 private:
 	Component components;
 	int _answer;
-	char _type;
+	string _type;
 };

@@ -5,7 +5,7 @@ using namespace std;
 class Entity: public Node{
 public:
 	void connectTo();
-	void canConnectTo();
+	bool canConnectTo();
 private:
 	int connections;
 

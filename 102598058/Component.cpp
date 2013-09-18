@@ -4,7 +4,7 @@
 using namespace std;
 
 int _id;
-int _type;
+string _type;
 string _text;
 Component::Component(){
 	_id = id;
@@ -15,7 +15,7 @@ Component::Component(){
 int Component::getID(){
 	return _id;
 }
-int Component::getType(){
+string Component::getType(){
 	return _type;
 }
 string Component::getText(){
@@ -24,8 +24,9 @@ string Component::getText(){
 void Component::connectTo(){
 	//給下下層實作
 }
-void Component::canConnectTo(){
+bool Component::canConnectTo(){
 	//給下下層實作
+	return true; //test
 }
 
 

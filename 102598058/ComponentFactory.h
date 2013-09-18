@@ -5,8 +5,8 @@ using namespace std;
 class ComponentFactory{
 public:
 	//ComponentFactory();
-	static Component* ComponentFactory();
-	static Component createComponent();
+	//virtual Component ComponentFactory(int);
+	virtual Component* createComponent(string);
 private:
-
+	string type;
 };

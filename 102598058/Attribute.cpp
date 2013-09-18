@@ -4,8 +4,9 @@
 using namespace std;
 
 
-void Attribute::canConnectTo(){
+bool Attribute::canConnectTo(){
 	//實作
+	return true; //test
 }
 void Attribute::connectTo(){
 	//實作

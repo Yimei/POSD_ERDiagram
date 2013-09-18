@@ -6,7 +6,7 @@ class Node:public Component{
 public:
 	//Node();
 	virtual void connectTo();
-	virtual void canConnectTo();
+	virtual bool canConnectTo();
 private:
 	int connections;
 };

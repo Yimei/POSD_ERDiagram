@@ -6,7 +6,7 @@ class Connection:public Component{
 public:
 	Connection();
 	void connectTo();
-	void canConnectTo();
+	bool canConnectTo();
 private:
 	int connections;
 };
