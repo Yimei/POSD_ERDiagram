@@ -8,5 +8,5 @@ public:
 	virtual void connectTo();
 	virtual bool canConnectTo();
 private:
-	int connections;
+	
 };

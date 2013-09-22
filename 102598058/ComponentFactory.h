@@ -4,9 +4,9 @@ using namespace std;
 
 class ComponentFactory{
 public:
-	//ComponentFactory();
+	ComponentFactory();
 	//virtual Component ComponentFactory(int);
-	virtual Component* createComponent(string);
+	Component createComponent(string);
 private:
 	string type;
 };

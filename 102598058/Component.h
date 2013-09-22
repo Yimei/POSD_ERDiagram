@@ -3,8 +3,8 @@ using namespace std;
 
 class Component{
 public:
-	
-	Component();
+	//Component();
+	void setName(string);
 	int getID();
 	string getType();
 	string getText();
@@ -15,6 +15,8 @@ private:
 	int id;
 	string type;
 	string text;
+	
+
 };
 //Abstract Factory returning a component
 //class ComponentFactory{

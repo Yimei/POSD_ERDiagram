@@ -3,18 +3,22 @@
 #include"ComponentFactory.h"
 #include "Component.h"
 using namespace std;
-static enum StringValue {
+enum  NodeKind{
 	Entity,
 	Attribute,
 	Relationship
 };
-Component* ComponentFactory::*createComponent(int type){
+ComponentFactory::ComponentFactory(){
 
-	switch(type){
+}
+Component ComponentFactory::createComponent(string type){
+	enum NodeKind notekind;
+	switch(notekind){
 	case 1:
-		 
+		// return new Component();
 		break;
 	case 2:
+
 
 		break;
 	case 3:

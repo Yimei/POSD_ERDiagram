@@ -4,8 +4,8 @@ using namespace std;
 class Relationship:public Node{
 public:
 	
-	virtual void connectTo();//介面
-	virtual bool canConnectTo();//介面
+	void connectTo();//介面
+	bool canConnectTo();//介面
 private:
-	int connections;
+	
 };

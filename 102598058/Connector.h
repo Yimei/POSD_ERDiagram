@@ -1,10 +1,9 @@
 #include <string>
-using namespace std;
 #include "Component.h"
-
-class Connection:public Component{
+using namespace std;
+class Connector:public Component{
 public:
-	Connection();
+	Connector();
 	void connectTo();
 	bool canConnectTo();
 private:

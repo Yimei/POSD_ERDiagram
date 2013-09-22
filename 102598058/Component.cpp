@@ -7,9 +7,12 @@ int _id;
 string _type;
 string _text;
 Component::Component(){
-	_id = id;
+	/*_id = id;
 	_type = type;
-	_text = text;
+	_text = text;*/
+}
+void Component::setName(string name){
+	_text = name;
 }
 
 int Component::getID(){

@@ -4,8 +4,8 @@ using namespace std;
 class Attribute:public Node{
 public:
 	
-	virtual void connectTo();
-	virtual bool canConnectTo();
+	void connectTo();
+	bool canConnectTo();
 private:
-	int connections;
+	
 };
